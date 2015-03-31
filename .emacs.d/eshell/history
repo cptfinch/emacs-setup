@@ -1,0 +1,32 @@
+ls
+ls
+pwd
+cd .emacs.d/; git clone http://gitorious.org/evil/evil.git
+ps
+top
+more
+which git
+ls
+ls ..
+cd ..
+ls
+ls Git/
+ls Git/bin/
+cd .emacs.d/ ; git clone http://gitorious.org/evil/evil.git
+../Git/bin/git.exe git clone http://gitorious.org/evil/evil.git
+../Git/bin/git.exe clone http://gitorious.org/evil/evil.git
+cd ..
+ls
+ls -lah
+cd .emacs.d/
+ls -lah
+cd ..
+cd ~
+ls
+ls
+git clone https://github.com/emacs-helm/helm.git .emacs.d/
+which git
+ls
+man finger
+ls -lah
+ls

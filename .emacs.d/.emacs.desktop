@@ -1,0 +1,62 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Tue Mar 31 17:13:09 2015
+;; Desktop file format version 206
+;; Emacs version 24.3.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("mu4" "email" " r " "projectil" "projectile" "magit" "linum"))
+(setq regexp-search-ring '("calcul" "magit" "winn" "win.*)" "winn" "(" "magit" "blah" "Save" "sanit" "this"))
+(setq register-alist '((48 . "winner-mode 1")))
+(setq file-name-history '("e:/.emacs" "e:/new.org"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "e:/org-files/newtest.org"
+  "newtest.org"
+  'org-mode
+  '(helm-mode projectile-mode)
+  11
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . iso-latin-1-dos) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "e:/org-files/.git/hooks/applypatch-msg.sample"
+  "applypatch-msg.sample"
+  'sh-mode
+  '(helm-mode projectile-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "org-files"
+  'dired-mode
+  '(helm-mode projectile-mode)
+  274
+  '(288 nil)
+  t
+  '("e:/org-files/")
+  nil)
+
+(desktop-create-buffer 206
+  "e:/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(helm-mode projectile-mode)
+  1378
+  '(1292 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-dos)))
+
